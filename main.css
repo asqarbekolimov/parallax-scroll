@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #57b3ff, #e62ef7);
+  border-radius: 100px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  color: #fff;
+  -webkit-box-shadow: 2px 2px 2px #000;
+          box-shadow: 2px 2px 2px #000;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .bg-1 {
+  background-image: url("img/bg-1.jpg");
+  height: 100vh;
+}
+
+body .bg-2 {
+  background-image: url("img/bg-2.jpg");
+  height: 600px;
+}
+
+body .bg-3 {
+  background-image: url("img/bg-3.webp");
+  height: 100vh;
+}
+
+body .bg-4 {
+  background-image: url("img/bg-4.jpg");
+  height: 600px;
+}
+
+body .bg-5 {
+  background-image: url("img/bg-5.jpg");
+  height: 100vh;
+}
+/*# sourceMappingURL=main.css.map */
